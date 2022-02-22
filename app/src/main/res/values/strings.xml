@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">GuardianNews</string>
+    <string name="messageerror"> you have lose Internet connection\nTry Again later\n After Check internet connection\nthen open the app again\n </string>
+    <string name="ErrorMessage">Check internet connection\n</string>
+    <string name="noauthorfound">No Author Found</string>
+
+    <string name="Settings_Menu">Setting</string>
+    <string name="key" translatable="false">min_news</string>
+    <string name="Min_Default" translatable="false">0</string>
+    <string name="Settings_Name">Guardian Settings</string>
+    <string name="Min_Label">Minimum News</string>
+
+    <string name="loading">loading.....</string>
+    <string name="AuthorName">Author_Name</string>
+    <string name="Date">Date</string>
+    <string name="Catagories">Catagories</string>
+    <string name="Title">Title............................................................</string>
+
+    <string name="section_label">Section</string>
+    <string name="section_key" translatable="false">section</string>
+    <string name="section_default" translatable="false">@string/section_all_value</string>
+
+    <string-array name="section_values">
+        <item>@string/section_all_value</item>
+        <item>@string/section_australia_value</item>
+        <item>@string/section_media_network_value</item>
+        <item>@string/section_Business_value</item>
+        <item>@string/section_society_value</item>
+        <item>@string/section_Film_value</item>
+        <item>@string/section_world_value</item>
+    </string-array>
+
+    <string name="section_all_value" translatable="false"></string>
+    <string name="section_Film_value" translatable="false">film</string>
+    <string name="section_world_value" translatable="false">world</string>
+    <string name="section_media_network_value" translatable="false">media-network</string>
+    <string name="section_australia_value" translatable="false">australia-news</string>
+    <string name="section_society_value" translatable="false">society</string>
+    <string name="section_Business_value" translatable="false">business</string>
+
+    <string-array name="section_labels">
+        <item>@string/section_all_label</item>
+        <item>@string/section_australia_label</item>
+        <item>@string/section_media_network_label</item>
+        <item>@string/section_Business_label</item>
+        <item>@string/section_society_label</item>
+        <item>@string/section_Film_label</item>
+        <item>@string/section_world_label</item>
+    </string-array>
+
+    <string name="section_world_label">World news</string>
+    <string name="section_all_label">All</string>
+    <string name="section_australia_label">Australia news</string>
+    <string name="section_society_label">Society</string>
+    <string name="section_media_network_label">Media Network</string>
+    <string name="section_Business_label">Business</string>
+    <string name="section_Film_label">Film</string>
+
+</resources>

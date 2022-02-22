@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/Settings_Name">
+
+    <EditTextPreference
+        android:defaultValue="@string/Min_Default"
+        android:inputType="phone"
+        android:key="@string/key"
+        android:selectAllOnFocus="true"
+        android:shadowColor="@color/colorPrimary"
+        android:title="@string/Min_Label" />
+
+    <ListPreference
+        android:defaultValue="@string/section_default"
+        android:entries="@array/section_labels"
+        android:entryValues="@array/section_values"
+        android:key="@string/section_key"
+        android:title="@string/section_label" />
+
+
+</PreferenceScreen>
